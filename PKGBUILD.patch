@@ -1,0 +1,17 @@
+21c21,22
+<         sudo.pam)
+---
+>         sudo.pam
+>         ins_classic.h)
+25c26,27
+<             'd1738818070684a5d2c9b26224906aad69a4fea77aabd960fc2675aee2df1fa2')
+---
+>             'd1738818070684a5d2c9b26224906aad69a4fea77aabd960fc2675aee2df1fa2'
+>             'SKIP')
+34a37,38
+>   cp $srcdir/ins_classic.h plugins/sudoers/ins_classic.h
+> 
+49c53
+<     --with-all-insults
+---
+>     --with-classic-insults
